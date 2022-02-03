@@ -1,0 +1,13 @@
+downloadedAppPath: src/test/resources/se.novacura.flow.ng-signed.apk
+grid:
+  host: 127.0.0.1
+  port: 4723
+
+android:
+  platform: Android
+  deviceName: Android Emulator
+  udid: emulator-5554
+  appPackage: se.novacura.flow.ng
+  appWaitActivity: crc64a79010b19294cf0a.UnconnectedViewActivity
+  automationName: Appium
+  autoGrantPermissions: true
