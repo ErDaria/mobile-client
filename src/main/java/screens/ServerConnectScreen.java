@@ -10,8 +10,8 @@ import support.ui.CommonActions;
 public class ServerConnectScreen extends CommonActions {
 
     @HowToUseLocators(iOSXCUITAutomation = LocatorGroupStrategy.ALL_POSSIBLE)
-    @AndroidFindBy(id = "pinOrAddressField")
-    @iOSXCUITBy(id = "pinOrAddressField")
+    @AndroidFindBy(id = "AddressField")
+    @iOSXCUITBy(id = "AddressField")
     private static MobileElement addressField;
 
     public static void setAddressField(String value) {
