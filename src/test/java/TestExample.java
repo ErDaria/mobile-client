@@ -11,7 +11,7 @@ public class TestExample extends TestBase {
     @Test
     public void test() throws InterruptedException {
         ServerConnectScreen.setAddressField("http://cool.server/");
-        WebElement AddressField = driver.findElementById("pinOrAddressField");
+        WebElement AddressField = driver.findElementById("AddressField");
         WebElement connectButton = driver.findElementById("connectButton");
         AddressField.sendKeys("http://cool.server/");
         connectButton.click();
