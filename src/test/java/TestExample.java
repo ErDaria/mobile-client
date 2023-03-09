@@ -10,14 +10,14 @@ public class TestExample extends TestBase {
 
     @Test
     public void test() throws InterruptedException {
-        ServerConnectScreen.setAddressField("http://rndqa1/6.13/novacura.flow.server/");
-//        WebElement pinOrAddressField = driver.findElementById("pinOrAddressField");
+        ServerConnectScreen.setAddressField("http://cool.server/");
+        WebElement AddressField = driver.findElementById("pinOrAddressField");
         WebElement connectButton = driver.findElementById("connectButton");
-//        pinOrAddressField.sendKeys("http://rndqa1/6.13/novacura.flow.server/");
+        AddressField.sendKeys("http://cool.server/");
         connectButton.click();
         WebElement loginUsername = driver.findElementById("loginUsername");
         WebElement loginButton = driver.findElementById("loginButton");
-        loginUsername.sendKeys("daerse");
+        loginUsername.sendKeys("username");
         loginButton.click();
         Thread.sleep(5000);
     }
