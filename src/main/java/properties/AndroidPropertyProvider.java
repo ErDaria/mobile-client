@@ -7,7 +7,7 @@ import io.appium.java_client.remote.AutomationName;
 @Data
 @ConfigurationProperties("android")
 public class AndroidPropertyProvider {
-    private String appPackage = "se.novacura.flow.ng";
+    private String appPackage = "my.app";
     private String appWaitActivity = "crc64a79010b19294cf0a.UnconnectedViewActivity";
     private String automationName = AutomationName.ANDROID_UIAUTOMATOR2;
     private boolean autoGrantPermissions = true;
